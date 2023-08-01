@@ -47,10 +47,11 @@
     padding-right: 40px;
     display: flex;
     position: relative;
-    background-color: rgb(66, 48, 221);
+    background-color: rgb(66, 48, 221,0.7);
     font-size: 14px;
     overflow: hidden;
     position: fixed;
+   
     
     /* padding-bottom: -30px; */
     /* margin-bottom: -40px; */
@@ -309,4 +310,105 @@
 }
 .card2list ul li{
     margin-bottom: 20px;
+}
+
+.card3{
+    margin-top: 80px;
+    padding: 40px;
+    /* margin-right: 30px */
+    /* padding-right: 80px; */
+   
+}
+.card3box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  rgba(170,168,255,.3);
+    border-radius: 20px;
+    /* position: absolute; */
+    margin-right: 40px;
+    /* padding-right: 100px; */
+}
+.card3img{
+
+    margin-left: 40px;
+    /* margin-bottom: 100px; */
+    margin-right: 100px;
+}
+.card3para{
+    color: #4d4d66;
+    font: 18px Figtree,sans-serif;
+    margin-top: 10px;
+    line-height: 30px;
+    margin-right: 40px;
+}
+
+.card4{
+    margin-top: 80px;
+    padding: 40px;
+}
+.card4box{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2ff;
+    border-radius: 20px;
+    /* padding: 80px; */
+}
+.card4heading{
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 140px;
+    margin-right: 30px;
+    /* margin-top: 40px; */
+}
+.card4para {
+    padding-left: 80px;
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+
+.headi{
+    text-align: center;
+    margin: 80px;
+}
+.headi p{
+    font-size: 40px;
+    font-weight: 900;
+    align-items: center;
+    padding: 100px;
+    padding-right: 180px;
+    padding-left: 150px;
+}
+.card5{
+    margin: 10px auto 10px;
+    padding: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 50px #ece5e5;
+    padding: 50px;
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+.comment img{
+    margin-bottom: 20px;
+}
+.com-txt{
+    color: #4d4d66;
+    font-weight: 500;
+    font-family: Figtree,'sans-serif';
+    font-size: 1.1rem;
+}
+.com-name{
+     color: #171279;
+    font-weight: 500;
+    font-family: Figtree,'sans-serif';
+    font-size: 0.9rem;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-weight: 900;
 }
