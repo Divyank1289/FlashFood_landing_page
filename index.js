@@ -14,6 +14,7 @@ showmorebtn.onclick =()=>{
 
     }
 }
+
 let allitem=20;
 showlessbtn.onclick =()=>{
     console.log("dhgbkj")
@@ -28,4 +29,5 @@ showlessbtn.onclick =()=>{
 
     }
 }
+
 
